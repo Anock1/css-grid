@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 15px;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    max-width:1440px;
+    
+      
+    }
+.container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 300px 300px 300px;
+    margin: 50px 20px 20px 50px;
+    
+}
+.card{
+display: flex;
+margin-top: 30px;
+
+
+}
+img{
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#left-div{
+    background-color: #228B22 ;
+    margin-left: 5px;
+    padding: 10px;
+    color: hsla(0, 0%, 100%, 0.75);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    align-items: center;
+    font-size: small;
+   
+}
+button{
+   background-color: hsl(0, 0%, 95%);
+   margin: 30px;
+   padding: 5px;
+   text-align: center;
+   border-radius: 20px;
+   width: 100px;
+   border: 0;
+   color:black;
+   margin-left: 5px;
+}
+
+button p{
+    margin-left: 5px;
+    margin-right:10px ;
+    color:inherit ;
+    font-size: small;
+
+}
+
+h1{
+font-family:'Lexend Deca' ;
+margin-bottom: 10px;
+font-weight: 400;
+
+}
+#center-div{
+    background-color: #A0AECD;
+    color: #000000;
+    padding:10px ;
+    font-size: small;
+    font-family: 'Big Shoulders Display';
+    
+}
+#center-div button{
+    color: #555555;
+}
+
+#right-div{
+    background-color: #FECD45;
+    padding: 10px;
+    font-size: small;
+    font-family:'Big Shoulders Display' ;
+    color:  black;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right: 10px;
+    
+}
+
+#right-div button{
+    color: white;
+    background-color: #2568FB;
+
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+}
+
+@media screen and (max-width:600px) {
+   .container{
+       display: block;
+   }
+}
